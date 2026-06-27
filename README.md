@@ -31,13 +31,13 @@ MiniSearch · vite-plugin-pwa. Linting with Oxlint, tests with Vitest.
 
 ## Getting started
 
-Requires [Node.js](https://nodejs.org/) (LTS) and npm.
+Requires [Node.js](https://nodejs.org/) (LTS) and pnpm.
 
 ```bash
 git clone https://github.com/webidian/webidian.git
 cd webidian
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 Then open the printed local URL (usually http://localhost:5173).
@@ -50,11 +50,11 @@ Then open the printed local URL (usually http://localhost:5173).
 
 | Command         | What it does                 |
 | --------------- | ---------------------------- |
-| `npm run dev`   | Start the Vite dev server    |
-| `npm run build` | Production build             |
-| `npm test`      | Run tests (Vitest)           |
-| `npm run lint`  | Lint with Oxlint (fast)      |
-| `npm run check` | Type-check + type-aware lint |
+| `pnpm run dev`   | Start the Vite dev server    |
+| `pnpm run build` | Production build             |
+| `pnpm test`      | Run tests (Vitest)           |
+| `pnpm run lint`  | Lint with Oxlint (fast)      |
+| `pnpm run check` | Type-check + type-aware lint |
 
 ## Project layout
 
